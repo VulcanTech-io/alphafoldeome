@@ -1,6 +1,4 @@
 // import { PageTitleBox } from "../components/cards/PageTitleBox";
-import backgroundImage from "../public/sailboat.jpg";
-
 interface Props {
   //
 }
@@ -26,6 +24,5 @@ error404.settings = {
     alwaysOpaque: true,
   },
 };
-error404.backgroundImage = backgroundImage;
 
 export default error404;
