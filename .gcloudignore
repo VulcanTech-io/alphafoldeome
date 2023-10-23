@@ -1,0 +1,6 @@
+*
+!.next
+!public
+!Dockerfile
+!.dockerignore
+!app.json

@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://alphafoldeome.org
+
+# Sitemaps
+Sitemap: https://alphafoldeome.org/sitemap.xml
