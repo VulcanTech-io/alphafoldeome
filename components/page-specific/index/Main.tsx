@@ -35,7 +35,7 @@ export const Home: FC<Props> = ({}) => {
   }, [text]);
 
   useEffect(() => {
-    const maxDataLength = 100;
+    const maxDataLength = 0;
     if (data.length !== 0) {
       setLoading(true);
       data.map((accession, i, { length }) => {
