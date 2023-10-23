@@ -7,7 +7,7 @@ interface Props {
 export const Loader: FC<Props> = ({ loading }) => {
   if (!loading) return null;
   return (
-    <div className="fixed inset-0 grid place-items-center bg-black/50">
+    <div className="fixed inset-0 grid place-items-center bg-black/50 z-50">
       <style>{`
           .lds-dual-ring {
             display: inline-block;
