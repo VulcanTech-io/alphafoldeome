@@ -21,7 +21,7 @@ COPY --chown=nextjs:nodejs . .
 # copy the public folder to the /app folder
 RUN yarn global add sharp@0.32.5
 # next two work
-COPY --chown=nextjs:nodejs ./public .next/standalone/Desktop/alphafoldeome/public
+COPY --chown=nextjs:nodejs ./public .next/standalone/public
 
 USER nextjs
 
@@ -32,4 +32,4 @@ ENV HOSTNAME "0.0.0.0"
 
 RUN ls /
 # this one works
-CMD ["node", ".next/standalone/Desktop/alphafoldeome/server.js"]
+CMD ["node", ".next/standalone/server.js"]

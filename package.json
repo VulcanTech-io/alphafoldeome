@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "postbuild": "next-sitemap; cp -r .next/static .next/standalone/Desktop/alphafoldeome/.next",
+    "postbuild": "next-sitemap; cp -r .next/static .next/standalone/.next",
     "start": "next start",
     "lint": "next lint",
     "predocker": "yarn build",

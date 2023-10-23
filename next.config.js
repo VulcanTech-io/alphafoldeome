@@ -6,7 +6,7 @@ const options = {
   swcMinify: true,
   output: "standalone",
   experimental: {
-    outputFileTracingRoot: path.join(__dirname, "../../"),
+    outputFileTracingRoot: path.join(__dirname, "."),
   },
   crossOrigin: "anonymous",
   compiler: {
